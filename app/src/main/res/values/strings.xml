@@ -3,4 +3,5 @@
     <string name="add_a_car">Add A Car</string>
     <string name="add">Add</string>
     <string name="dismiss">Dismiss</string>
+    <string name="delete_car">Delete Car</string>
 </resources>
