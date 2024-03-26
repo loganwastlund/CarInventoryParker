@@ -83,6 +83,7 @@ dependencies {
     implementation(libs.compose.material3)
     implementation(libs.compose.destinations)
     implementation(libs.compose.destinations.animation)
+    implementation(libs.compose.extended.icons)
     ksp(libs.compose.ksp)
 
     // Testing
