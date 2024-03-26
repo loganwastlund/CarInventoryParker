@@ -4,6 +4,8 @@ import android.content.Context
 import androidx.room.Room
 import com.example.android.carinventoryparker.model.db.CAR_DATABASE
 import com.example.android.carinventoryparker.model.db.CarDatabase
+import com.example.android.carinventoryparker.model.repository.CarRepository
+import com.example.android.carinventoryparker.model.repository.CarRepositoryImpl
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -25,4 +27,7 @@ class AppModule {
     )
         .fallbackToDestructiveMigration()
         .build()
+
+    @Provides
+    fun provideRepository(database: CarDatabase): CarRepository = CarRepositoryImpl(database)
 }
