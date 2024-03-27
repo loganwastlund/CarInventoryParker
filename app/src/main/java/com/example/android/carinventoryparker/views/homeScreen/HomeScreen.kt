@@ -37,6 +37,8 @@ fun HomeScreen(
         AddCarDialog(
             isDialogOpen = viewModel.isDialogOpen,
             closeDialog = { viewModel.toggleDialog() }
-        )
+        ) {
+            viewModel.addCar(it)
+        }
     }
 }
