@@ -1,4 +1,4 @@
-package com.example.android.carinventoryparker.views.homeScreen.subViews
+package com.example.android.carinventoryparker.feature_carList.presentation.homeScreen.subViews
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -18,7 +18,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import com.example.android.carinventoryparker.R
-import com.example.android.carinventoryparker.model.entity.Car
+import com.example.android.carinventoryparker.feature_carList.domain.model.Car
 
 @Composable
 fun CarCard(

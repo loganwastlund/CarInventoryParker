@@ -1,4 +1,4 @@
-package com.example.android.carinventoryparker.utlities
+package com.example.android.carinventoryparker.core.utils
 
 import java.util.Locale
 

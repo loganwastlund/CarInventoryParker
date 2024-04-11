@@ -1,4 +1,4 @@
-package com.example.android.carinventoryparker.views.homeScreen
+package com.example.android.carinventoryparker.feature_carList.presentation.homeScreen
 
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ElectricCar

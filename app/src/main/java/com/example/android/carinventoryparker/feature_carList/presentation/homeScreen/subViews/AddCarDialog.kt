@@ -1,4 +1,4 @@
-package com.example.android.carinventoryparker.views.homeScreen.subViews
+package com.example.android.carinventoryparker.feature_carList.presentation.homeScreen.subViews
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -20,8 +20,8 @@ import androidx.compose.ui.platform.LocalConfiguration
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import com.example.android.carinventoryparker.R
-import com.example.android.carinventoryparker.model.entity.Car
-import com.example.android.carinventoryparker.utlities.capitalizeWords
+import com.example.android.carinventoryparker.feature_carList.domain.model.Car
+import com.example.android.carinventoryparker.core.utils.capitalizeWords
 import kotlinx.coroutines.job
 
 @Composable

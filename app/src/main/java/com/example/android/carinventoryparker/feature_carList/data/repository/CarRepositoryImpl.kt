@@ -1,7 +1,8 @@
-package com.example.android.carinventoryparker.model.repository
+package com.example.android.carinventoryparker.feature_carList.data.repository
 
-import com.example.android.carinventoryparker.model.db.CarDatabase
-import com.example.android.carinventoryparker.model.entity.Car
+import com.example.android.carinventoryparker.feature_carList.data.local.CarDatabase
+import com.example.android.carinventoryparker.feature_carList.domain.model.Car
+import com.example.android.carinventoryparker.feature_carList.domain.repository.CarRepository
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
@@ -32,7 +33,7 @@ class CarRepositoryImpl @Inject constructor(
         } catch (e: Exception) {
             println(e.message)
         }
-    }
+    }.flowOn(Dispatchers.IO)
 
     override fun updateCarInRoom(car: Car) {
         try {

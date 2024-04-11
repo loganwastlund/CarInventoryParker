@@ -1,4 +1,4 @@
-package com.example.android.carinventoryparker.model.entity
+package com.example.android.carinventoryparker.feature_carList.domain.model
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey

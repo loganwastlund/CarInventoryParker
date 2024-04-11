@@ -8,4 +8,11 @@
     <string name="color">Color</string>
     <string name="year">Year</string>
     <string name="model">Model</string>
+    <string name="back">Back</string>
+    <string name="update_car_screen">Update Car Screen</string>
+    <string name="car_make">Car Make</string>
+    <string name="car_model">Car Model</string>
+    <string name="car_year">Car Year</string>
+    <string name="car_color">Car Color</string>
+    <string name="update">Update</string>
 </resources>

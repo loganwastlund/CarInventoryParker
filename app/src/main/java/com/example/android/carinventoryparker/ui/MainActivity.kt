@@ -1,10 +1,10 @@
-package com.example.android.carinventoryparker
+package com.example.android.carinventoryparker.ui
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
+import com.example.android.carinventoryparker.feature_carList.presentation.NavGraphs
 import com.example.android.carinventoryparker.ui.theme.CarInventoryParkerTheme
-import com.example.android.carinventoryparker.views.homeScreen.NavGraphs
 import com.ramcosta.composedestinations.DestinationsNavHost
 import dagger.hilt.android.AndroidEntryPoint
 

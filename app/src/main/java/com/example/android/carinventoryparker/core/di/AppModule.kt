@@ -1,11 +1,11 @@
-package com.example.android.carinventoryparker.di
+package com.example.android.carinventoryparker.core.di
 
 import android.content.Context
 import androidx.room.Room
-import com.example.android.carinventoryparker.model.db.CAR_DATABASE
-import com.example.android.carinventoryparker.model.db.CarDatabase
-import com.example.android.carinventoryparker.model.repository.CarRepository
-import com.example.android.carinventoryparker.model.repository.CarRepositoryImpl
+import com.example.android.carinventoryparker.feature_carList.data.local.CAR_DATABASE
+import com.example.android.carinventoryparker.feature_carList.data.local.CarDatabase
+import com.example.android.carinventoryparker.feature_carList.domain.repository.CarRepository
+import com.example.android.carinventoryparker.feature_carList.data.repository.CarRepositoryImpl
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

@@ -1,4 +1,4 @@
-package com.example.android.carinventoryparker.views.homeScreen.subViews
+package com.example.android.carinventoryparker.feature_carList.presentation.homeScreen.subViews
 
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable

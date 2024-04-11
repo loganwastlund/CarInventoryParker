@@ -1,12 +1,12 @@
-package com.example.android.carinventoryparker.views.homeScreen
+package com.example.android.carinventoryparker.feature_carList.presentation.homeScreen
 
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.android.carinventoryparker.model.entity.Car
-import com.example.android.carinventoryparker.model.repository.CarRepositoryImpl
+import com.example.android.carinventoryparker.feature_carList.domain.model.Car
+import com.example.android.carinventoryparker.feature_carList.data.repository.CarRepositoryImpl
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableStateFlow
@@ -23,11 +23,7 @@ class HomeScreenViewModel @Inject constructor(
     private val _cars = MutableStateFlow<List<Car>>(emptyList())
     val cars = _cars.asStateFlow()
 
-    init {
-        getAllCars()
-    }
-
-    private fun getAllCars() {
+    fun getAllCars() {
         viewModelScope.launch(Dispatchers.IO) {
             repository.getAllCarsFromRoom()
                 .collect {

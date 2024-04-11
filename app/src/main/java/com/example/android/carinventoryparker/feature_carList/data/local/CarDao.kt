@@ -1,4 +1,4 @@
-package com.example.android.carinventoryparker.model.dao
+package com.example.android.carinventoryparker.feature_carList.data.local
 
 import androidx.room.Dao
 import androidx.room.Delete
@@ -6,8 +6,8 @@ import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
 import androidx.room.Update
-import com.example.android.carinventoryparker.model.entity.CAR_TABLE
-import com.example.android.carinventoryparker.model.entity.Car
+import com.example.android.carinventoryparker.feature_carList.domain.model.CAR_TABLE
+import com.example.android.carinventoryparker.feature_carList.domain.model.Car
 
 @Dao
 interface CarDao {

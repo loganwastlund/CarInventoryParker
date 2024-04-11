@@ -1,6 +1,6 @@
-package com.example.android.carinventoryparker.model.repository
+package com.example.android.carinventoryparker.feature_carList.domain.repository
 
-import com.example.android.carinventoryparker.model.entity.Car
+import com.example.android.carinventoryparker.feature_carList.domain.model.Car
 import kotlinx.coroutines.flow.Flow
 
 interface CarRepository {

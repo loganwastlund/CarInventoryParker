@@ -1,9 +1,8 @@
-package com.example.android.carinventoryparker.model.db
+package com.example.android.carinventoryparker.feature_carList.data.local
 
 import androidx.room.Database
 import androidx.room.RoomDatabase
-import com.example.android.carinventoryparker.model.dao.CarDao
-import com.example.android.carinventoryparker.model.entity.Car
+import com.example.android.carinventoryparker.feature_carList.domain.model.Car
 
 const val CAR_DATABASE = "car_database"
 
