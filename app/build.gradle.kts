@@ -90,6 +90,13 @@ dependencies {
     implementation(libs.junit)
     implementation(libs.junit.android)
     implementation(libs.espresso)
+    implementation(libs.truth)
+    implementation(libs.hamcrest)
+    implementation(libs.robolectric)
+    implementation(libs.coroutines.test)
+    implementation(libs.mockito)
+    implementation(libs.core.testing)
+
 
     // Debug
     implementation(libs.ui.test.manifest)
