@@ -91,7 +91,7 @@ dependencies {
     implementation(libs.junit.android)
     implementation(libs.espresso)
     implementation(libs.truth)
-    implementation(libs.hamcrest)
+//    implementation(libs.hamcrest)
     implementation(libs.robolectric)
     implementation(libs.coroutines.test)
     implementation(libs.mockito)
