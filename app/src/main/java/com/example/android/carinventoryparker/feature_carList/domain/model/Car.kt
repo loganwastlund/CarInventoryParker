@@ -11,8 +11,8 @@ const val CAR_TABLE = "car_table"
 data class Car(
     @PrimaryKey(autoGenerate = true)
     val id: Int,
-    val make: String,
-    val model: String,
-    val year: String,
-    val color: String,
+    var make: String,
+    var model: String,
+    var year: String,
+    var color: String,
 )
