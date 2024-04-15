@@ -4,8 +4,8 @@ import android.content.Context
 import androidx.room.Room
 import com.example.android.carinventoryparker.feature_carList.data.local.CAR_DATABASE
 import com.example.android.carinventoryparker.feature_carList.data.local.CarDatabase
-import com.example.android.carinventoryparker.feature_carList.domain.repository.CarRepository
 import com.example.android.carinventoryparker.feature_carList.data.repository.CarRepositoryImpl
+import com.example.android.carinventoryparker.feature_carList.domain.repository.CarRepository
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

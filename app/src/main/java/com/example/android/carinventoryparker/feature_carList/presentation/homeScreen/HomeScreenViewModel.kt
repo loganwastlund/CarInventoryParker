@@ -5,8 +5,8 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.android.carinventoryparker.feature_carList.domain.model.Car
 import com.example.android.carinventoryparker.feature_carList.data.repository.CarRepositoryImpl
+import com.example.android.carinventoryparker.feature_carList.domain.model.Car
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableStateFlow
